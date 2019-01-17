@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gles">
+      <UniqueIdentifier>{984a088b-09f1-4da4-bd8c-6e7954312d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gles\win32">
+      <UniqueIdentifier>{11a139cf-416a-4c08-8211-b1c5c214d9e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gles\esShader.c">
+      <Filter>gles</Filter>
+    </ClCompile>
+    <ClCompile Include="gles\esShapes.c">
+      <Filter>gles</Filter>
+    </ClCompile>
+    <ClCompile Include="gles\esTransform.c">
+      <Filter>gles</Filter>
+    </ClCompile>
+    <ClCompile Include="gles\esUtil.c">
+      <Filter>gles</Filter>
+    </ClCompile>
+    <ClCompile Include="gles\win32\esUtil_win32.c">
+      <Filter>gles\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Hello_Triangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gles\gl2ext.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\gl2platform.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\gl3.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\gl3platform.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\khrplatform.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\egl.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\eglext.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\eglplatform.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\esUtil.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\gl2.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+    <ClInclude Include="gles\esUtil_win.h">
+      <Filter>gles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
